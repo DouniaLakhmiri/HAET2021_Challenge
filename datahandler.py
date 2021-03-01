@@ -93,6 +93,3 @@ def get_subset_data(y_train, y_test):
                                                                                                                                     0:100] + truck_indices_test[
                                                                                                                                              0:100]
     return subset_indices_1, subset_indices_test_1
-    trainset_1 = torch.utils.data.Subset(trainset, subset_indices_1)
-    testset_1 = torch.utils.data.Subset(testset, subset_indices_test_1)
-
